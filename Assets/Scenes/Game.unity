@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 97361811}
   - component: {fileID: 97361810}
   - component: {fileID: 97361809}
+  - component: {fileID: 97361812}
   m_Layer: 0
   m_Name: Moldaviya
   m_TagString: Republic
@@ -268,6 +269,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &97361812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97361806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &316813352
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,6 +298,7 @@ GameObject:
   - component: {fileID: 316813355}
   - component: {fileID: 316813357}
   - component: {fileID: 316813356}
+  - component: {fileID: 316813358}
   m_Layer: 0
   m_Name: Gruzini
   m_TagString: Republic
@@ -420,6 +438,22 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &316813358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316813352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &322959875
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +467,7 @@ GameObject:
   - component: {fileID: 322959878}
   - component: {fileID: 322959880}
   - component: {fileID: 322959879}
+  - component: {fileID: 322959881}
   m_Layer: 0
   m_Name: Kirgiziya
   m_TagString: Republic
@@ -583,6 +618,22 @@ PolygonCollider2D:
       - {x: 0.02, y: -0.16499999}
       - {x: 0.19999999, y: -0.21499999}
       - {x: 0.44, y: -0.125}
+--- !u!114 &322959881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322959875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &351861437
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +647,7 @@ GameObject:
   - component: {fileID: 351861440}
   - component: {fileID: 351861442}
   - component: {fileID: 351861441}
+  - component: {fileID: 351861443}
   m_Layer: 0
   m_Name: Litva
   m_TagString: Republic
@@ -733,6 +785,22 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &351861443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351861437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &466552310
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +814,7 @@ GameObject:
   - component: {fileID: 466552313}
   - component: {fileID: 466552315}
   - component: {fileID: 466552314}
+  - component: {fileID: 466552316}
   m_Layer: 0
   m_Name: Turki
   m_TagString: Republic
@@ -900,6 +969,82 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &466552316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466552310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
+--- !u!1 &467561567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 467561569}
+  - component: {fileID: 467561568}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &467561568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467561567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef25ae82fd3d8640884b287e8d1d5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countries:
+  - {fileID: 859322712}
+  - {fileID: 819817264}
+  - {fileID: 521110604}
+  - {fileID: 1039074757}
+  - {fileID: 316813358}
+  - {fileID: 1611217926}
+  - {fileID: 351861443}
+  - {fileID: 97361812}
+  - {fileID: 1789055469}
+  - {fileID: 322959881}
+  - {fileID: 771826721}
+  - {fileID: 683569791}
+  - {fileID: 466552316}
+  - {fileID: 986656892}
+  score: 0
+  time: 20
+--- !u!4 &467561569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467561567}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.8766017, y: -0.074930415, z: -31.492188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,6 +1270,7 @@ GameObject:
   - component: {fileID: 521110601}
   - component: {fileID: 521110603}
   - component: {fileID: 521110602}
+  - component: {fileID: 521110604}
   m_Layer: 0
   m_Name: Uzbeki
   m_TagString: Republic
@@ -1286,6 +1432,22 @@ PolygonCollider2D:
       - {x: 0.31, y: -0.655}
       - {x: 0.37, y: -0.545}
       - {x: 0.59, y: -0.42499998}
+--- !u!114 &521110604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521110598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &663798153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,7 +1539,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1397,6 +1559,7 @@ GameObject:
   - component: {fileID: 683569788}
   - component: {fileID: 683569790}
   - component: {fileID: 683569789}
+  - component: {fileID: 683569791}
   m_Layer: 0
   m_Name: Armani
   m_TagString: Republic
@@ -1528,6 +1691,22 @@ PolygonCollider2D:
       - {x: 0.099999994, y: -0.195}
       - {x: 0.099999994, y: 0.145}
       - {x: 0.02, y: 0.225}
+--- !u!114 &683569791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683569785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &761637035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,7 +1750,7 @@ Transform:
   - {fileID: 466552311}
   - {fileID: 986656887}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &771826715
 GameObject:
@@ -1586,6 +1765,7 @@ GameObject:
   - component: {fileID: 771826718}
   - component: {fileID: 771826720}
   - component: {fileID: 771826719}
+  - component: {fileID: 771826721}
   m_Layer: 0
   m_Name: Tadzhiki
   m_TagString: Republic
@@ -1733,6 +1913,22 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &771826721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771826715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &819817258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,6 +1942,7 @@ GameObject:
   - component: {fileID: 819817261}
   - component: {fileID: 819817263}
   - component: {fileID: 819817262}
+  - component: {fileID: 819817264}
   m_Layer: 0
   m_Name: Belorussia
   m_TagString: Republic
@@ -1888,6 +2085,22 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &819817264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819817258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &859322706
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9da401adfda4a4149a310bb2d7503ed3, type: 2}
+  score: 0
   resource: 0
   multiplier: 0
 --- !u!1 &986656886
@@ -2095,6 +2309,7 @@ GameObject:
   - component: {fileID: 986656889}
   - component: {fileID: 986656891}
   - component: {fileID: 986656890}
+  - component: {fileID: 986656892}
   m_Layer: 0
   m_Name: Estoniya
   m_TagString: Republic
@@ -2227,6 +2442,22 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &986656892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986656886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &1039074749
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,6 +2474,7 @@ GameObject:
   - component: {fileID: 1039074755}
   - component: {fileID: 1039074753}
   - component: {fileID: 1039074757}
+  - component: {fileID: 1039074758}
   m_Layer: 0
   m_Name: Kazakhi
   m_TagString: Republic
@@ -2610,7 +2842,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9da401adfda4a4149a310bb2d7503ed3, type: 2}
+  score: 0
   resource: 400
+  multiplier: 0
+--- !u!114 &1039074758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039074749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
   multiplier: 0
 --- !u!1 &1330437301
 GameObject:
@@ -3133,6 +3382,7 @@ GameObject:
   - component: {fileID: 1611217923}
   - component: {fileID: 1611217925}
   - component: {fileID: 1611217924}
+  - component: {fileID: 1611217926}
   m_Layer: 0
   m_Name: Azerbaidzhane
   m_TagString: Republic
@@ -3271,6 +3521,22 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &1611217926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611217920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &1789055463
 GameObject:
   m_ObjectHideFlags: 0
@@ -3284,6 +3550,7 @@ GameObject:
   - component: {fileID: 1789055466}
   - component: {fileID: 1789055468}
   - component: {fileID: 1789055467}
+  - component: {fileID: 1789055469}
   m_Layer: 0
   m_Name: Latviya
   m_TagString: Republic
@@ -3418,6 +3685,22 @@ MonoBehaviour:
   scaleEffect: 2
   localScaleTarget: {x: 0, y: 0, z: 0}
   entered: 0
+--- !u!114 &1789055469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789055463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167a9548e3404ee4296abe14411ab72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  score: 0
+  resource: 0
+  multiplier: 0
 --- !u!1 &1910105561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3482,7 +3765,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1065614215997918331
 PrefabInstance:
@@ -3529,7 +3812,7 @@ PrefabInstance:
     - target: {fileID: 1065614215803799811, guid: 95768557ecd07814897daf2f039350ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1065614215803799811, guid: 95768557ecd07814897daf2f039350ca,
         type: 3}

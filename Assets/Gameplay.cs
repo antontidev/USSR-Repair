@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Gameplay : MonoBehaviour
 {
     private SpriteRenderer renderer;
     public Material material;
     private Material defaultMaterial;
-    private float score;
+    public float score;
     private float secondsForStartSliv = 5f;
 
     private bool isUSSR;
@@ -31,6 +31,10 @@ public class Gameplay : MonoBehaviour
         }
     }
 
+    public void OnMouseDown()
+    {
+        
+    }
     public int multiplier;
     // Start is called before the first frame update
     void Start()
