@@ -39,8 +39,7 @@ public class NameMenu : MonoBehaviour
         foreach(double c in bytes)
         {
             if (c < max)
-                summ += c / (Random.Range(1.0f, 3.0f) * max);
+                summ += c / (Random.Range(1.0f, 4.0f) * max);
         }
-
     }
 }
