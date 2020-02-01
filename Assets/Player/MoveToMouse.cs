@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class MoveToMouse : MonoBehaviour
 {
+    private Dictionary<bool, string> mode;
     private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
+        mode.Add(false, "Love");
+        mode.Add(true, "War");
         animator = GetComponent<Animator>();   
+
     }
 
     // Update is called once per frame
@@ -34,6 +38,7 @@ public class MoveToMouse : MonoBehaviour
                 }
             }
         }
+        //change on bool from component from Victor
         animator.SetBool("Love", love);
     }
 }
