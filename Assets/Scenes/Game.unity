@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -291,7 +291,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 735dc1795a38c0345b1abed58ded6e48, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8db591e1548d8fa4eb7f22ee3daaad87, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1406,7 +1406,7 @@ SpriteRenderer:
   m_Size: {x: 12, y: 8.21}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &819817258
@@ -1897,6 +1897,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669dcbabfc40c54439f0bfb1f3e1832b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scaleEffect: 0
+  transform: {fileID: 0}
+  entered: 0
 --- !u!1 &1611217920
 GameObject:
   m_ObjectHideFlags: 0
