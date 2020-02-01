@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Gameplay : MonoBehaviour
 {
-    public float score;
-    public float secondsForStartSliv;
+    private SpriteRenderer renderer;
+    public Material material;
+    private Material defaultMaterial;
+    private float score;
+    private float secondsForStartSliv = 5f;
 
-    public bool isUSSR;
-    public float resourceDefault;
+    private bool isUSSR;
+    private float resourceDefault;
     public float resource;
     public void TakeDamage(float damage)
     {
@@ -23,7 +26,7 @@ public class Gameplay : MonoBehaviour
         }
         if (resource <= 0)
         {
-
+            renderer.material = material;
             isUSSR = true;
         }
     }
@@ -32,7 +35,9 @@ public class Gameplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        renderer = GetComponent<SpriteRenderer>();
+        defaultMaterial = renderer.material;
+        resourceDefault = resource;   
     }
 
     // Update is called once per frame
