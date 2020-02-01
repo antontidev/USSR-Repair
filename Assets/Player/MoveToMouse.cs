@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class MoveToMouse : MonoBehaviour
 {
-
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();   
     }
 
     // Update is called once per frame
@@ -18,15 +18,17 @@ public class MoveToMouse : MonoBehaviour
         Vector3 worldPoint = Camera.main.ScreenToWorldPoint(mousePosition);
         worldPoint.z = 0;
         transform.position = worldPoint;
+        bool mouseDown = Input.GetMouseButtonDown(0);
 
-
-        if (Input.GetMouseButtonDown(0))
+        animator.SetBool("Love", mouseDown);
+        if (mouseDown)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            bool love = Physics.Raycast(ray, out hit);
+            animator.SetBool("Love", love);
+            if (love)
             {
                 if (hit.transform.gameObject.tag == "Republic")
                 {
