@@ -1504,7 +1504,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.221
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1744,6 +1744,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1065614215803799809, guid: 95768557ecd07814897daf2f039350ca,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8db591e1548d8fa4eb7f22ee3daaad87, type: 3}
     - target: {fileID: 1065614215803799811, guid: 95768557ecd07814897daf2f039350ca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2367,7 +2372,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.0999832, y: 0}
+  m_AnchoredPosition: {x: -1.0999603, y: 0}
   m_SizeDelta: {x: 8.06, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1707210006
