@@ -18,23 +18,22 @@ public class MoveToMouse : MonoBehaviour
         Vector3 worldPoint = Camera.main.ScreenToWorldPoint(mousePosition);
         worldPoint.z = 0;
         transform.position = worldPoint;
-        bool mouseDown = Input.GetMouseButtonDown(0);
 
-        animator.SetBool("Love", mouseDown);
-        if (mouseDown)
+        bool love = false;
+        if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             RaycastHit hit;
-            bool love = Physics.Raycast(ray, out hit);
-            animator.SetBool("Love", love);
-            if (love)
+            
+            if (Physics.Raycast(ray, out hit))
             {
                 if (hit.transform.gameObject.tag == "Republic")
                 {
-                    //something
+                    love = true;
                 }
             }
         }
+        animator.SetBool("Love", love);
     }
 }
