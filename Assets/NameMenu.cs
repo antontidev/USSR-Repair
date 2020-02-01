@@ -23,7 +23,7 @@ public class NameMenu : MonoBehaviour
     {
         name = InputFieldName.text;
         ConvertNameToEvent();
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void ConvertNameToEvent()
