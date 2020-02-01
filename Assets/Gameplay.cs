@@ -23,6 +23,7 @@ public class Gameplay : MonoBehaviour
         }
         if (resource <= 0)
         {
+
             isUSSR = true;
         }
     }
