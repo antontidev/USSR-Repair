@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 97361808}
   m_Layer: 0
   m_Name: Moldaviya
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 316813354}
   m_Layer: 0
   m_Name: Gruzini
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 322959877}
   m_Layer: 0
   m_Name: Kirgiziya
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 351861439}
   m_Layer: 0
   m_Name: Litva
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 466552312}
   m_Layer: 0
   m_Name: Turki
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 521110600}
   m_Layer: 0
   m_Name: Uzbeki
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 683569787}
   m_Layer: 0
   m_Name: Armani
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -813,7 +813,7 @@ GameObject:
   - component: {fileID: 771826717}
   m_Layer: 0
   m_Name: Tadzhiki
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -857,7 +857,7 @@ GameObject:
   - component: {fileID: 819817260}
   m_Layer: 0
   m_Name: Belorussia
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -901,7 +901,7 @@ GameObject:
   - component: {fileID: 859322708}
   m_Layer: 0
   m_Name: Ukraine
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -945,7 +945,7 @@ GameObject:
   - component: {fileID: 986656888}
   m_Layer: 0
   m_Name: Estoniya
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 1039074751}
   m_Layer: 0
   m_Name: Kazakhi
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1033,7 +1033,7 @@ GameObject:
   - component: {fileID: 1330437303}
   m_Layer: 0
   m_Name: Russia
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1078,7 +1078,7 @@ GameObject:
   - component: {fileID: 1491220719}
   m_Layer: 0
   m_Name: "\u0421\u043B\u043E\u0439 2"
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1156,7 +1156,7 @@ SpriteRenderer:
   m_Size: {x: 2.34, y: 2.21}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1491220721
@@ -1186,7 +1186,7 @@ GameObject:
   - component: {fileID: 1557369599}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1230,7 +1230,7 @@ GameObject:
   - component: {fileID: 1611217922}
   m_Layer: 0
   m_Name: Azerbaidzhane
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1274,7 +1274,7 @@ GameObject:
   - component: {fileID: 1789055465}
   m_Layer: 0
   m_Name: Latviya
-  m_TagString: Untagged
+  m_TagString: Republic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
