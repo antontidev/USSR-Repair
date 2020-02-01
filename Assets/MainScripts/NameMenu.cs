@@ -1,14 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System.Linq;
 using System.Text;
 public class NameMenu : MonoBehaviour
 {
+    public GameObject prefab;
     public InputField InputFieldName;
-    public GameObject InfoForGame;
-    public bool isLove = true;
-    public string name;
     double summ = 0;
     public int currentEvent;
     private void Update()
@@ -24,6 +21,9 @@ public class NameMenu : MonoBehaviour
             else if (summ > 0.401f && summ < 0.601f) currentEvent = 2;
                 else if (summ > 0.601f && summ < 0.801f) currentEvent = 3;
                     else currentEvent = 4;
+        
+        GameObject info = Instantiate(prefab);
+        info.GetComponent<Info>().nameMenu = this;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
