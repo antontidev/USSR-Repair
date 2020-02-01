@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Info : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public NameMenu nameMenu;
+    public int currentEvent;
+    void Awake()
     {
-        
+        DontDestroyOnLoad(transform.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        currentEvent = nameMenu.currentEvent;
     }
 }
