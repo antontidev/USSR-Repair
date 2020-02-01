@@ -13,14 +13,14 @@ public class clicksound : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    	{
         if (Input.GetMouseButtonDown(0))
-	{
+		{
 		source.Play();
-	}
-	if (Input.GetMouseButtonUp(0))
-	{
+		}
+		if (Input.GetMouseButtonUp(0))
+		{
 		source.Stop();
+    	}
 	}
-    }
 }
