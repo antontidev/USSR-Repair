@@ -6,25 +6,24 @@ using System.Text;
 public class NameMenu : MonoBehaviour
 {
     public InputField InputFieldName;
-    public Toggle WarToggle;
+    public GameObject InfoForGame;
     public bool isLove = true;
-    ToggleGroup toggle;
     public string name;
-    private void Start()
-    {
-        Text text = gameObject.GetComponentInChildren<Text>();
-
-        toggle = GetComponent<ToggleGroup>();
-    }
+    double summ = 0;
+    public int currentEvent;
     private void Update()
     {
-      //  if(LoveToggle.)
         
     }
     public void PlayGame()
     {
         name = InputFieldName.text;
         ConvertNameToEvent();
+        if (summ > 0.001f && summ < 0.201f) currentEvent = 0;
+        else if (summ > 0.201f && summ < 0.401f) currentEvent = 1;
+            else if (summ > 0.401f && summ < 0.601f) currentEvent = 2;
+                else if (summ > 0.601f && summ < 0.801f) currentEvent = 3;
+                    else currentEvent = 4;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -32,7 +31,6 @@ public class NameMenu : MonoBehaviour
     {
         byte[] bytes = Encoding.Unicode.GetBytes(name);
         double max = 0;
-        double summ = 0;
         foreach (int c in bytes)
         {
             if (c > max)
