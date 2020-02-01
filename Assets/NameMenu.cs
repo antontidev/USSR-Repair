@@ -6,12 +6,14 @@ using System.Text;
 public class NameMenu : MonoBehaviour
 {
     public InputField InputFieldName;
+    public Toggle WarToggle;
     public bool isLove = true;
     ToggleGroup toggle;
     public string name;
-
     private void Start()
     {
+        Text text = gameObject.GetComponentInChildren<Text>();
+
         toggle = GetComponent<ToggleGroup>();
     }
     private void Update()
