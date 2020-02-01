@@ -14,8 +14,12 @@ public class MoveToMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Input.mousePosition;
-       
+        Vector3 mousePosition = Input.mousePosition;
+        Vector3 worldPoint = Camera.main.ScreenToWorldPoint(mousePosition);
+        worldPoint.z = 0;
+        transform.position = worldPoint;
+
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
