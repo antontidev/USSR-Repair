@@ -31,7 +31,6 @@ public class NameMenu : MonoBehaviour
         byte[] bytes = Encoding.Unicode.GetBytes(name);
         double max = 0;
         double summ = 0;
-        Random rnd = new Random();
         foreach (int c in bytes)
         {
             if (c > max)
@@ -40,7 +39,7 @@ public class NameMenu : MonoBehaviour
         foreach(double c in bytes)
         {
             if (c < max)
-                summ += c / (rnd.Range(1.0f, 3.0f) * max);
+                summ += c / (Random.Range(1.0f, 3.0f) * max);
         }
 
     }
