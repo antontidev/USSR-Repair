@@ -34,7 +34,7 @@ public class Choosing : MonoBehaviour
     {
         if (entered)
         {
-            renderer.sortingOrder++;
+          
             transform.localScale = Vector3.Lerp(localScaleTarget, localScaleOld, scaleEffect * Time.deltaTime);
         }
         if (Vector3.Distance(localScaleTarget, localScaleOld) > 0.01f && !entered)
