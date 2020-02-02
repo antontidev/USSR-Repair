@@ -286,12 +286,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 50
+  secondChance: 0
 --- !u!95 &97361813
 Animator:
   serializedVersion: 3
@@ -530,12 +530,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 100
+  secondChance: 0
 --- !u!95 &316813359
 Animator:
   serializedVersion: 3
@@ -751,12 +751,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 100
+  secondChance: 0
 --- !u!95 &322959882
 Animator:
   serializedVersion: 3
@@ -946,12 +946,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 50
+  secondChance: 0
 --- !u!95 &351861444
 Animator:
   serializedVersion: 3
@@ -1166,12 +1166,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 250
+  secondChance: 0
 --- !u!95 &466552317
 Animator:
   serializedVersion: 3
@@ -1201,7 +1201,6 @@ GameObject:
   m_Component:
   - component: {fileID: 467561569}
   - component: {fileID: 467561568}
-  - component: {fileID: 467561570}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -1253,19 +1252,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &467561570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467561567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a67f0403954cf94d9a5a0f91b0bc9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1684523159}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,12 +1694,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 150
+  secondChance: 0
 --- !u!95 &521110605
 Animator:
   serializedVersion: 3
@@ -2069,12 +2055,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 150
+  secondChance: 0
 --- !u!95 &683569792
 Animator:
   serializedVersion: 3
@@ -2323,12 +2309,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 100
+  secondChance: 0
 --- !u!95 &771826722
 Animator:
   serializedVersion: 3
@@ -2378,7 +2364,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819817258}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.773, y: 0.349, z: 0.48621354}
+  m_LocalPosition: {x: -4.773, y: 0.349, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 761637036}
@@ -2536,12 +2522,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 100
+  secondChance: 0
 --- !u!95 &819817265
 Animator:
   serializedVersion: 3
@@ -2591,7 +2577,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859322706}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.983, y: -0.306, z: 0.48621354}
+  m_LocalPosition: {x: -4.983, y: -0.306, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 761637036}
@@ -2788,12 +2774,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 200
+  secondChance: 0
 --- !u!1 &986656886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,7 +2811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986656886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.231, y: 1.04, z: 0.48621354}
+  m_LocalPosition: {x: -4.231, y: 1.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 761637036}
@@ -2957,12 +2943,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 120
+  secondChance: 0
 --- !u!114 &986656893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3307,7 +3293,7 @@ Animator:
   m_GameObject: {fileID: 1039074749}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea079b862fc71144d9270e3553d85d89, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3329,12 +3315,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 400
+  secondChance: 0
 --- !u!1 &1330437301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,7 +3347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330437301}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.27285802, y: 0.60171175, z: 0.48621354}
+  m_LocalPosition: {x: 0.27285802, y: 0.60171175, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 761637036}
@@ -3682,12 +3668,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 130
+  secondChance: 0
 --- !u!95 &1611217927
 Animator:
   serializedVersion: 3
@@ -3707,12 +3693,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!95 &1684523159 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1065614215803799810, guid: 95768557ecd07814897daf2f039350ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 1065614215997918331}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1789055463
 GameObject:
   m_ObjectHideFlags: 0
@@ -3743,7 +3723,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789055463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7680755, y: 0.855, z: 0.48621354}
+  m_LocalPosition: {x: -4.7680755, y: 0.855, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 761637036}
@@ -3878,12 +3858,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  isAnimation: 0
   score: 0
   defaultDamage: 40
   damage: 0
   isUSSR: 0
   resource: 60
+  secondChance: 0
 --- !u!95 &1789055470
 Animator:
   serializedVersion: 3

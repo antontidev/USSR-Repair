@@ -6,20 +6,24 @@ public class Gameplay : MonoBehaviour
 {
     private bool loosingStarted = false;
     public Animator animator;
-    public bool isAnimation = false;
 
     public float score;
     private float timer = 5f;
+    private float secondTimer = 5f;
+
+    private bool letsSmoke = false;
 
     private float defaultTimer;
 
     public float defaultDamage = 40;
 
     public float damage;
-
+    private bool clicked = false;
     public bool isUSSR = false;
     private float resourceDefault;
     public float resource;
+
+    public bool secondChance;
     public void TakeDamage(float damage)
     {
         score += damage;
@@ -42,17 +46,22 @@ public class Gameplay : MonoBehaviour
     public void OnMouseDown()
     {
         TakeDamage(defaultDamage);
-        isAnimation = true;
         if (loosingStarted)
         {
             timer = defaultTimer;
         }
+        if (secondChance)
+        {
+            clicked = true;
+        }
         animator.SetBool("Click", true);
+
     }
     public void OnMouseUp()
     {
-        isAnimation = false;
         animator.SetBool("Click", false);
+        if (secondChance)
+            clicked = false;
     }
 
     void Start()
@@ -70,14 +79,23 @@ public class Gameplay : MonoBehaviour
     {
         if (isUSSR)
         {
-            if (loosingStarted)
-                timer -= Time.deltaTime;
+            timer -= Time.deltaTime;
         }
-        else
+        if (!secondChance && timer <= 0)
         {
-            loosingStarted = false;
+            secondChance = true;
+            timer = defaultTimer;
         }
-        animator.SetFloat("time", timer);
+        else if (secondChance && timer < 0)
+        {
+            animator.SetFloat("Time", timer);
+            isUSSR = false;
+            timer = defaultTimer;
+            secondChance = false;
+        }
+        if (!secondChance)  
+            animator.SetFloat("Time", timer);
         animator.SetBool("isUssr", isUSSR);
+        animator.SetBool("Clicked", clicked);
     }
 }
