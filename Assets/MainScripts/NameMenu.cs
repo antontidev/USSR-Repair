@@ -15,6 +15,7 @@ public class NameMenu : MonoBehaviour
     public void PlayGame()
     {
         name = InputFieldName.text;
+        if (InputFieldName.text == "") return;
         ConvertNameToEvent();
         if (summ > 0.001f && summ < 0.201f) currentEvent = 0;
         else if (summ > 0.201f && summ < 0.401f) currentEvent = 1;
