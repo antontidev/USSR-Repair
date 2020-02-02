@@ -6,12 +6,20 @@ public class ScoreMenu : MonoBehaviour
 {
     public Text FinalScore;
     public Text FinalCountries;
-    public void Start()
+    string Score;
+    string Countries;
+
+    private void Start()
     {
-        // string score = GameObject.Find("ScoreManager").GetComponent<ScoreManager>().Score;
-        // string countries = GameObject.Find("ScoreManager").GetComponent<ScoreManager>().Countries;
-       // FinalScore.text = "Score: " + score;
-       // FinalCountries.text = "Countries: " + countries + "/14";
+        Score = GameObject.Find("ScoreManager").GetComponent<Score>().score.ToString();
+        Countries = GameObject.Find("ScoreManager").GetComponent<Score>().republicCount.ToString();
+
+    }
+    private void Update()
+    {
+        
+        FinalScore.text = "Score: " + Score;
+        FinalCountries.text = "Countries: " + Countries + "/14";
     }
     public void BackToMenu()
     {

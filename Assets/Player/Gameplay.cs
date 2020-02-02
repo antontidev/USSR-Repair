@@ -89,7 +89,7 @@ public class Gameplay : MonoBehaviour
         else if (secondChance && timer < 0)
         {
             animator.SetFloat("Time", timer);
-            isUSSR = false;
+            
             timer = defaultTimer;
             secondChance = false;
         }

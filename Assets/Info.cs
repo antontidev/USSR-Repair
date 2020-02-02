@@ -7,7 +7,7 @@ public class Info : MonoBehaviour
     public int currentEvent;
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject.GetComponent<Info>());
        // SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
