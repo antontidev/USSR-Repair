@@ -8,9 +8,9 @@ public class NameMenu : MonoBehaviour
     public InputField InputFieldName;
     double summ = 0;
     public int currentEvent;
-    private void Update()
+    private void Start()
     {
-        
+        Destroy(GameObject.Find("*InfoForGame*"));
     }
     public void PlayGame()
     {
